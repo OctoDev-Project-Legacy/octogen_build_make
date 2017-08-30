@@ -485,16 +485,16 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
     model = GetBuildProp("ro.product.model", OPTIONS.info_dict)
     build = GetBuildProp("ro.build.date", OPTIONS.info_dict)
 
-    script.Print("- by XrTV .-.-.-.-.-.-.-.-.-.- Android 8 .");
-    script.Print("**** **** *** **** **** *** *  *  **** ***");
-    script.Print("*  * *  *  *  *  * *    *   ** *  *  * *");
-    script.Print("*  * *     *  *  * * ** *** * **  *  * ***");
-    script.Print("*  * *  *  *  *  * *  * *   *  *  *  *   *");
-    script.Print("**** ****  *  **** **** *** *  *  **** ***");
-    script.Print("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-    script.Print(" Compiled: %s "%(build));
-    script.Print(" For: %s "%(model));
-    script.Print("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+    script.Print(". OctoDev Project ..... Android 8 .");
+    script.Print(".     _                    _  _   .");
+    script.Print(".    / /_ _/__  _  _  _   / //_`  .");
+    script.Print(".   /_//_ / /_//_//_'/ / /_/._/   .");
+    script.Print(".              _/                 .");
+    script.Print("...................................");
+    script.Print("  Rom properties:");
+    script.Print("   Device: %s "%(model));
+    script.Print("   Date: %s "%(build));
+    script.Print("......................... By XrTV .");
 
   recovery_mount_options = OPTIONS.info_dict.get("recovery_mount_options")
 
